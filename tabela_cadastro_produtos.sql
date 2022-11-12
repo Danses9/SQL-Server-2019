@@ -1,0 +1,16 @@
+--CADASTRO DE PRODUTOS
+
+--	1. Código do Produto
+--	2. Nome do Produto
+--	3. Embalagem
+--	4. Tamanho
+--	5. Sabor
+--	6. Preço de Lista
+
+CREATE TABLE [TABELA DE PRODUTOS]
+([CODIGO DO PRODUTO] [VARCHAR] (20),
+[NOME DO PRODUTO] [VARCHAR] (150),
+[EMBALAGEM] [VARCHAR] (50),
+[TAMANHO] [VARCHAR] (50),
+[SABOR] [VARCHAR] (50),
+[PRECO LISTA] [SMALLMONEY]);
