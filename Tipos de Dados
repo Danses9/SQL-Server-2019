@@ -1,6 +1,6 @@
 1. NÚMERICOS EXATOS - INTEIROS
 
-	  • BIGINT  - Números extensos (8 bytes)
+	• BIGINT  - Números extensos (8 bytes)
 
   	• INT - Números médios (4 bytes)
 
@@ -20,7 +20,7 @@
 
 3. NUMÉRICOS EXATOS - REPRESENTAÇÃO MONETÁRIA
 
-	  • MONEY -  Variação grande contendo sempre 4 casas decimais (8 bytes)
+    • MONEY -  Variação grande contendo sempre 4 casas decimais (8 bytes)
     • SMALLMONEY - Variação pequena contendo sempre 4 casas decimais (4 bytes)
 
 4. NÚMERICOS EXATOS - VALOR LÓGICO
@@ -57,8 +57,8 @@
 
 9. CADEIA DE CARACTERES BINÁRIA (ARMAZENAMENTO DE DADOS BINÁRIOS PARA SALVAR EM BANCO IMAGENS, ARQUIVOS, ETC)
 
-	  • BINARY - Caracteres de tamanho FIXO (0 à 8000 bytes) SE  NÃO PREENCHER TUDO ELE PREENCHE COM ESPAÇOS
-	  • VARBINARY - Caracteres de tamanhos VARIAVEIS (0 à 8000 ou MAX 2 GB) VAI PREENCHER SÓ AQUILO QUE GASTA
+	 • BINARY - Caracteres de tamanho FIXO (0 à 8000 bytes) SE  NÃO PREENCHER TUDO ELE PREENCHE COM ESPAÇOS
+         • VARBINARY - Caracteres de tamanhos VARIAVEIS (0 à 8000 ou MAX 2 GB) VAI PREENCHER SÓ AQUILO QUE GASTA
 
 10. OUTROS TIPOS DE DADOS
 
