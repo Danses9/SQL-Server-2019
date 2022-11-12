@@ -1,5 +1,5 @@
 CREATE DATABASE IGUITO_VENDAS_03                     /*CRIANDO DATABASE*/
-ON (NAME = 'VENDAS_IGUITO_03',                       /*NOME INTERNO*/
+ON (NAME = 'VENDAS_IGUITO_03.MDF',                   /*NOME INTERNO*/
 FILENAME = 'C:\IGUITO3\VENDAS_IGUITO_03.MDF',        /*NOME FISICO DA BASE*/  
 SIZE = 20MB,                                         /*TAMANHO DA BASE*/ 
 MAXSIZE = 30MB,                                      /*CAPACIDADE MAXIMA*/
