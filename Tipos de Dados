@@ -1,0 +1,67 @@
+### **1. NÚMERICOS EXATOS - INTEIROS**
+
+	  • BIGINT  - Números extensos (8 bytes)
+
+  	• INT - Números médios (4 bytes)
+
+  	• SMALLINT - Números menores (32.767/ 2 bytes)
+
+  	• TINYINT - 0 à 255 (1 byte)
+
+### **2. NÚMÉRICOS EXATOS - CASAS DECIMAIS** 
+	
+  	• NUMERIC 
+  	• DECIMAL 
+
+    Definir o valor da PRECISÃO e o valor da ESCALA:
+
+    P = Definir o número de dígitos, incluindo o número de casas decimais que o número vai ter
+    E = Apenas o número de casas decimais (1 e 38 - inclui o número completo)
+
+### **3. NUMÉRICOS EXATOS - REPRESENTAÇÃO MONETÁRIA**
+
+	  • MONEY -  Variação grande contendo sempre 4 casas decimais (8 bytes)
+    • SMALLMONEY - Variação pequena contendo sempre 4 casas decimais (4 bytes)
+
+### **4. NÚMERICOS EXATOS - VALOR LÓGICO** 
+
+  	• 0 - FALSO (1 bit)
+  	• 1 - VERDADEIRO (1 bit)
+
+### **5. NUMÉRICOS APROXIMADOS - VALORES DECIMAIS**
+
+  	• FLOAT - Definimos um valor que representará o número de bits
+  	• REAL - Ele é igual o FLOAT, representando com 24 bits
+
+### **6. DATA E HORA**
+
+  	• DATE - Representa o dia (YYYY/MM/DD)
+  	• DATETIME - Representa o dia, hora, minuto, segundo e microsegundos
+  	• DATETIME2 - Intervalo maior de datas, representando dia, hora, minuto, segundo e microsegundos.
+  	• DATETIMEOFFSET - Representa dia, hora, minuto, segundo, microsegundos e fuso horário.
+  	• SMALLDATE - Representa dia, hora, minuto, segundo, microsegundos e fuso horário (armazena esse conteúdo sem uma precisão muito grande).
+  	• TIME - Representa a hora com precisão. 
+
+### **7. CADEIA DE CARACTERES (UTF 8)**
+
+  	• CHAR - Caracteres de tamanho FIXO (0 à 8000 bytes) SE  NÃO PREENCHER TUDO ELE PREENCHE COM ESPAÇOS
+  	• VARCHAR - Caracteres de tamanhos VARIAVEIS (0 à 8000 ou MAX 2 GB/Economizando espaço) VAI PREENCHER SÓ AQUILO QUE GASTA
+
+### **8. CADEIA DE CARACTERES UNICODE (UTF 16)**
+
+  	N significa UNICODE
+  	Permite o armazenamento de todos os caracteres limitando-se aos latinos.
+
+  	• NCHAR - Caracteres de tamanho FIXO (0 à 4000 bytes) SE  NÃO PREENCHER TUDO ELE PREENCHE COM ESPAÇOS
+  	• NVARCHAR - Caracteres de tamanhos VARIAVEIS (0 à 4000 ou MAX 2 GB) VAI PREENCHER SÓ AQUILO QUE GASTA
+
+### **9. CADEIA DE CARACTERES BINÁRIA (ARMAZENAMENTO DE DADOS BINÁRIOS PARA SALVAR EM BANCO IMAGENS, ARQUIVOS, ETC)**
+
+	  • BINARY - Caracteres de tamanho FIXO (0 à 8000 bytes) SE  NÃO PREENCHER TUDO ELE PREENCHE COM ESPAÇOS
+	  • VARBINARY - Caracteres de tamanhos VARIAVEIS (0 à 8000 ou MAX 2 GB) VAI PREENCHER SÓ AQUILO QUE GASTA
+
+### **10. OUTROS TIPOS DE DADOS**
+
+  	• XML - Armazena em formato XML
+  	• GEOMETRIA ESPACIAL -  Coordenadas euclidianas (SIMBOLOS GEOMÉTRICOS)
+  	• GEOGRÁFICOS ESPACIAIS - Dados associados a pontos, linhas ou áreas de mapas (GRAVAR COORDENADAS)
